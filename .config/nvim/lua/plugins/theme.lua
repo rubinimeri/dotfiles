@@ -1,0 +1,1 @@
+/home/rubinimeri/.config/omarchy/current/theme/neovim.lua
