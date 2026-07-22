@@ -68,3 +68,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# dotfiles — manage tracked configs (bare repo, work-tree = $HOME)
+alias dotfiles='git --git-dir="$HOME/.dotfiles" --work-tree="$HOME"'
